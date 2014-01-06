@@ -1,0 +1,18 @@
+{
+"manifest_version": 2,
+
+"name": "FanDuel Helper",
+"description": "Show opponent win records next to their names",
+"version": "1.0",
+
+"content_scripts": [
+{
+  "matches": ["http://www.fanduel.com/*", "https://www.fanduel.com/*"],
+  "js": ["jquery-2.0.3.min.js", "myscript.js"]
+}
+],
+
+"web_accessible_resources": [
+  "jquery-2.0.3.min.map"
+]
+}
