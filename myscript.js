@@ -1,9 +1,10 @@
 console.log("Test!");
-$(document).ready(function(){
-  $("div.user a").each(
-    function( index ){
-      var url = $(this).attr('href');
-      $(this).parent().parent().append("<div class='results" + index + "'></div>");
-      $(".results" + index).load("https://www.fanduel.com" + url+ " table");
-    });
+$(document).on("mouseenter", "div.user a", function() {
+    var url = $(this).attr('href');
+    $(this).parent().parent().append("<div class='results'></div>");
+    $(".results").load("https://www.fanduel.com" + url+ " table");
+});
+
+$(document).on("mouseleave", "div.user a", function() {
+  $(".results").remove();
 });
