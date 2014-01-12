@@ -8,3 +8,4 @@ $(document).on("mouseenter", "div.user a", function() {
 $(document).on("mouseleave", "div.user a", function() {
   $(".results").remove();
 });
+
