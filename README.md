@@ -1,0 +1,1 @@
+The FanDuel helper extension lets you see an opponent's win record by hovering over their username.  No longer will you need to click on the opponent's name and navigate to another tab to view this information.  Works in the lobby for Head to Head listings and on the player list for larger games.  
