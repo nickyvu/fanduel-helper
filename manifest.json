@@ -1,9 +1,9 @@
 {
 "manifest_version": 2,
 
-"name": "FanDuel Helper",
+"name": "RotoGrinders FanDuel Helper",
 "description": "Show opponent win records next to their names",
-"version": "1.0.1",
+"version": "1.0.2",
 
 "content_scripts": [
 {
