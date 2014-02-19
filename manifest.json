@@ -4,6 +4,7 @@
 "name": "RotoGrinders FanDuel Helper",
 "description": "Show opponent win records next to their names",
 "version": "1.0.2",
+"icons": { "128": "logo_128.png" }
 
 "content_scripts": [
 {
